@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>A Fractal Gripper</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,35 +52,42 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">A Fractal Gripper: Geometry Adaptive Manipulator with Switchable Mode</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://hjx-exoskeleton.github.io/" target="_blank">Jiaxin Huang</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a>Jian Shen</a><sup>1</sup>,
+                </span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a>Yilin Zheng</a><sup>1</sup>,
                   </span>
+                    <span class="author-block">
+                      <a>Yanbo Guo</a><sup>2</sup>,
+                    </span>
+                      <span class="author-block">
+                        <a>Zhigong Song</a><sup>1</sup><sup>*</sup>
+                      </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><sup>1</sup>Jiangsu Provincial Key Laboratory of Food Advanced Manufacturing Equipment Technology, School of Mechanical Engineering, Jiangnan University, Wuxi , China.<br><sup>2</sup>Jiangsu Guoxin Group</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Author</small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+<!--                      <span class="link-block">-->
+<!--                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"-->
+<!--                        class="external-link button is-normal is-rounded is-dark">-->
+<!--                        <span class="icon">-->
+<!--                          <i class="fas fa-file-pdf"></i>-->
+<!--                        </span>-->
+<!--                        <span>Paper</span>-->
+<!--                      </a>-->
+<!--                    </span>-->
 
                     <!-- Supplementary PDF link -->
                     <span class="link-block">
@@ -95,7 +102,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/HJX-exoskeleton/Fractal_Gripper" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -105,15 +112,15 @@
                 </span>
 
                 <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+<!--                <span class="link-block">-->
+<!--                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"-->
+<!--                  class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                    <i class="ai ai-arxiv"></i>-->
+<!--                  </span>-->
+<!--                  <span>arXiv</span>-->
+<!--                </a>-->
+<!--              </span>-->
             </div>
           </div>
         </div>
@@ -209,10 +216,17 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+<!--          <div class="publication-video">-->
+<!--            &lt;!&ndash; Youtube embed code here &ndash;&gt;-->
+<!--            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--          </div>-->
+
+            <video poster="" id="tree_grad_cam" autoplay controls muted loop height="100%">
+              <!-- Your video here -->
+              <source src="static/videos/xxx.mp4"
+              type="video/mp4">
+            </video>
+
         </div>
       </div>
     </div>
@@ -265,7 +279,7 @@
     <div class="container">
       <h2 class="title">Poster</h2>
 
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/supplementary_material.pdf" width="100%" height="550">
           </iframe>
         
       </div>
@@ -278,7 +292,14 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+        @article{huang2025afg,
+        title={A Fractal Gripper: Geometry Adaptive Manipulator with Switchable Mode},
+        author={Huang, Jiaxin and Shen, Jian and Zheng, Yilin and Guo, Yanbo and Song, Zhigong},
+        booktitle={/},
+        year={2025}
+        }
+      </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->

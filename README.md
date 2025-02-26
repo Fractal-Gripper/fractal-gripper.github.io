@@ -1,4 +1,4 @@
-# Academic Project Page Template
+# Fractal Gripper Project Page
 This is a Fractal Gripper project page.
 
 ## Components

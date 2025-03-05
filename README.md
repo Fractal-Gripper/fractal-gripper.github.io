@@ -3,10 +3,10 @@ This is a Fractal Gripper project page.
 
 ## Components
 - Teaser video
+- Graphical Abstract
 - Images Carousel
 - Video embedding
 - Video Carousel
-- Supplementary Material
 - Bibtex citation
 
 ## Tips:
